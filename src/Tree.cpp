@@ -18,10 +18,8 @@ void InsertElement(TreeNode* &TempNodePtr,int value)
      {
          if (TempNodePtr->Data > value)
              InsertElement(TempNodePtr->LeftChildPtr, value);
-
          else
              InsertElement(TempNodePtr->RightChildPtr, value);
-
      }
 
  }
